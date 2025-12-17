@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/products';
-const API_INFO_URL = 'http://localhost:8080/api/information';
+const API_URL = import.meta.env.VITE_API_PRODUCTS;
+const API_INFO_URL = import.meta.env.VITE_API_INFO;
 
 const ProductService = {
   // obtener listado
