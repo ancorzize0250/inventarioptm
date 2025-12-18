@@ -51,6 +51,12 @@ Desde la carpeta `inventario_tpm`, ejecuta:
 java -jar crud_backend_ptm-0.0.1-SNAPSHOT.jar --server.port=8081
 ```
 
+#### 🔹 La conexion a la base de datos está configurada de la siguiente forma
+
+spring.datasource.url=jdbc:mysql://localhost:3306/crud_app
+spring.datasource.username=root
+spring.datasource.password=
+
 #### 🔹 Alternativa
 Si el comando anterior no funciona:
 
