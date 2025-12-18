@@ -60,9 +60,10 @@ spring.datasource.password=
 ```
 
 #### 🔹 Alternativa
-Si el comando anterior no funciona:
+Si el comando anterior no funciona o deseas cambiar la conexion a la base de datos:
 
 - Abre el proyecto `crud_backend_ptm` en **IntelliJ IDEA**
+- cambia la conexión en el archivo "application.properties"
 - Ejecuta la clase principal:
 
 ```
